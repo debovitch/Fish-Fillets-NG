@@ -1,0 +1,31 @@
+-- The C compiler identification is AppleClang 21.0.0.21000101
+-- The CXX compiler identification is AppleClang 21.0.0.21000101
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /opt/homebrew/bin/pkg-config (found version "2.5.1")
+-- Checking for modules 'sdl3;sdl3-image;sdl3-ttf;sdl3-mixer'
+--   Found sdl3, version 3.4.8
+--   Found sdl3-image, version 3.4.0
+--   Found sdl3-ttf, version 3.2.2
+--   Found sdl3-mixer, version 3.2.2
+-- Checking for module 'lua5.5'
+--   Found lua5.5, version 5.5.0
+-- Checking for module 'fribidi'
+--   Package 'fribidi' not found
+-- Configuring done (9.4s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_BUILD_TYPE
+
+
+-- Build files have been written to: /Users/thierryduchassin/workspace/fillets-port/fillets-macos/build-xcode
