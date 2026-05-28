@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,7 +29,7 @@
       }
 
       .container {
-        max-width: 900px;
+        max-width: 950px;
         margin: 0 auto;
         padding: 40px 20px 80px;
       }
@@ -49,17 +49,32 @@
         font-size: 1.1rem;
       }
 
+      .badge {
+        display: inline-block;
+        background: rgba(56, 189, 248, 0.15);
+        color: var(--accent);
+        padding: 6px 12px;
+        border-radius: 999px;
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+      }
+
       .card {
-        background: rgba(17, 24, 39, 0.9);
+        background: rgba(17, 24, 39, 0.92);
         border: 1px solid var(--border);
         border-radius: 18px;
-        padding: 30px;
-        margin-bottom: 24px;
+        padding: 32px;
+        margin-bottom: 28px;
         backdrop-filter: blur(10px);
       }
 
       h2 {
         margin-top: 0;
+        color: white;
+      }
+
+      h3 {
+        margin-top: 30px;
         color: white;
       }
 
@@ -73,7 +88,13 @@
       }
 
       ul {
-        padding-left: 20px;
+        padding-left: 22px;
+      }
+
+      .separator {
+        height: 1px;
+        background: rgba(255, 255, 255, 0.08);
+        margin: 40px 0;
       }
 
       footer {
@@ -81,22 +102,6 @@
         text-align: center;
         color: var(--muted);
         font-size: 0.95rem;
-      }
-
-      .badge {
-        display: inline-block;
-        background: rgba(56, 189, 248, 0.15);
-        color: var(--accent);
-        padding: 6px 12px;
-        border-radius: 999px;
-        font-size: 0.9rem;
-        margin-bottom: 20px;
-      }
-
-      code {
-        background: rgba(255, 255, 255, 0.08);
-        padding: 2px 6px;
-        border-radius: 6px;
       }
 
       @media (max-width: 640px) {
@@ -122,7 +127,9 @@
       </section>
 
       <section class="card">
-        <h2>About the Game</h2>
+        <h2>🇬🇧 English</h2>
+
+        <h3>About the Game</h3>
 
         <p>
           Fish Fillets NG is a charming and challenging underwater puzzle game
@@ -139,10 +146,8 @@
           This macOS version modernizes the classic open-source game for current
           Apple hardware and recent versions of macOS.
         </p>
-      </section>
 
-      <section class="card">
-        <h2>Support</h2>
+        <h3>Support</h3>
 
         <p>
           If you encounter a bug, have a question, or would like to send
@@ -164,20 +169,8 @@
           <li>A description of the issue</li>
           <li>Screenshots if applicable</li>
         </ul>
-      </section>
 
-      <section class="card">
-        <h2>Controls</h2>
-
-        <ul>
-          <li>Keyboard support</li>
-          <li>Game controller support</li>
-          <li>Fullscreen and windowed modes</li>
-        </ul>
-      </section>
-
-      <section class="card">
-        <h2>Privacy</h2>
+        <h3>Privacy</h3>
 
         <p>
           Fish Fillets NG does not collect personal data, analytics, or tracking
@@ -185,17 +178,71 @@
         </p>
 
         <p>The game works entirely offline.</p>
-      </section>
 
-      <section class="card">
-        <h2>Credits</h2>
+        <div class="separator"></div>
+
+        <h2>🇫🇷 Français</h2>
+
+        <h3>À propos du jeu</h3>
+
+        <p>
+          Fish Fillets NG est un jeu de réflexion sous-marin à la fois amusant,
+          exigeant et basé sur la physique.
+        </p>
+
+        <p>
+          Contrôlez deux poissons à travers des dizaines de niveaux remplis
+          d’obstacles, d’objets à déplacer et de situations complexes où chaque
+          mouvement compte.
+        </p>
+
+        <p>
+          Cette version macOS modernise le célèbre jeu open source pour les Mac
+          récents et les versions actuelles de macOS.
+        </p>
+
+        <h3>Assistance</h3>
+
+        <p>
+          Pour signaler un bug, poser une question ou envoyer un retour,
+          veuillez contacter :
+        </p>
+
+        <p>
+          📧
+          <a href="mailto:thierry.duchassin@gmail.com">
+            thierry.duchassin@gmail.com
+          </a>
+        </p>
+
+        <p>Merci d’indiquer si possible :</p>
+
+        <ul>
+          <li>Votre version de macOS</li>
+          <li>Le modèle de votre Mac</li>
+          <li>Une description du problème</li>
+          <li>Des captures d’écran si nécessaire</li>
+        </ul>
+
+        <h3>Vie privée</h3>
+
+        <p>
+          Fish Fillets NG ne collecte aucune donnée personnelle, statistique ou
+          information de suivi.
+        </p>
+
+        <p>Le jeu fonctionne entièrement hors ligne.</p>
+
+        <div class="separator"></div>
+
+        <h3>Credits / Crédits</h3>
 
         <p>
           Fish Fillets NG is an open-source game created by its original authors
           and contributors.
         </p>
 
-        <p>macOS port by Thierry Duchassin.</p>
+        <p>Portage macOS par Thierry Duchassin.</p>
       </section>
 
       <footer>Fish Fillets NG – macOS port by Thierry Duchassin</footer>
